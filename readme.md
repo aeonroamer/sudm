@@ -1,5 +1,7 @@
 # sudm
 
+[![CI](https://github.com/aeonroamer/sudm/actions/workflows/ci.yml/badge.svg)](https://github.com/aeonroamer/sudm/actions/workflows/ci.yml)
+
 Async SurrealDB schema and function CLI.
 
 `sudm` bridges your local `.surql` files with a live SurrealDB instance. It automatically provisions your namespaces and databases on the fly, reads your ordered schema files, and pushes them straight to the cluster using SurrealDB's native idempotent upserts. No rollback scripts, no migration state tables—just pure declarative definitions.
