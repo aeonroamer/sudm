@@ -11,7 +11,7 @@ Built in Rust with async Tokio, Clap, and the official SurrealDB SDK.
 Clone and build from source:
 
 ```bash
-git clone https://github.com/AeonLogics/sudm.git
+git clone https://github.com/aeonroamer/sudm.git
 cd sudm
 cargo build --release
 ```
